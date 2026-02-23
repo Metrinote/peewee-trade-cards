@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade Cards</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0a0f;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #e2e8f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #fff;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 320px;
+  }
+  a {
+    display: block;
+    padding: 16px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: opacity 0.15s;
+  }
+  a:hover { opacity: 0.9; }
+  .alert-link {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    color: #fff;
+  }
+  .recap-link {
+    background: linear-gradient(135deg, #0d9488, #14b8a6);
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+  <h1>Trade Cards</h1>
+  <div class="cards">
+    <a href="peewee-trade-alert.html" class="alert-link">Pee-Wee's Trade Alert</a>
+    <a href="peewee-trade-recap.html" class="recap-link">Pee-Wee's Trade Recap</a>
+  </div>
+</body>
+</html>
